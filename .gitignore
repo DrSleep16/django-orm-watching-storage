@@ -3,3 +3,11 @@ poetry.lock
 pyproject.toml
 .idea/
 .env
+__pycache__
+*.pyc
+*.pyd
+*.pyo
+.vscode
+.idea
+Thumbs.db
+.DS_Store

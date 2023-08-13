@@ -31,10 +31,7 @@ class Visit(models.Model):
         )
 
     def duration(self):
-        if self.leaved_at:
-            return self.leaved_at - self.entered_at
-        else:
-            return timezone.now() - self.entered_at
+        return (self.leaved_at or timezone.now()) - self.entered_at
 
     def is_long_visit(self):
         return self.duration().total_seconds() > 3600

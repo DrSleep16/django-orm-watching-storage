@@ -25,7 +25,7 @@ if DEBUG_MODE == 'True':
     DEBUG = True
 else:
     DEBUG = False
-print(DEBUG_MODE, DEBUG)
+
 ROOT_URLCONF = 'project.urls'
 
 ALLOWED_HOSTS = ['*']

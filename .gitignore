@@ -1,6 +1,4 @@
 venv/
-poetry.lock
-pyproject.toml
 .idea/
 .env
 __pycache__
